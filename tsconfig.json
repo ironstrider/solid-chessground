@@ -18,6 +18,8 @@
       "ES2017"
     ],
     "outDir": "./dist",
-    "declaration": true
+    "declaration": true,
+    "jsx": "preserve",
+    "jsxImportSource": "solid-js",
   }
 }
