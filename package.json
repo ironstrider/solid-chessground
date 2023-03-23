@@ -1,7 +1,7 @@
 {
   "author": "Ben Martin (https://github.com/ironstrider)",
   "name": "solid-chessground",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "SolidJS wrapper for chessground, lichess.org's chessboard UI 🚀",
   "license": "GPL-3.0-or-later",
   "module": "./dist/index.js",
