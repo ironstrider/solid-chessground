@@ -1,0 +1,44 @@
+{
+  "author": "Ben Martin (https://github.com/ironstrider)",
+  "name": "solid-chessground",
+  "version": "0.0.0",
+  "description": "SolidJS wrapper for chessground, lichess.org's chessboard UI 🚀",
+  "license": "GPL-3.0-or-later",
+  "module": "./dist/index.js",
+  "typings": "./dist/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "preinstall": "npx only-allow pnpm",
+    "prepublish": "pnpm run build"
+  },
+  "files": [
+    "dist/"
+  ],
+  "keywords": [
+    "solidjs",
+    "chessground",
+    "chess",
+    "solid",
+    "component",
+    "lichess",
+    "lichess.org",
+    "chessboard",
+    "ui",
+    "typescript"
+  ],
+  "repository": "https://github.com/ironstrider/solid-chessground",
+  "bugs": {
+    "url": "https://github.com/ironstrider/solid-chessground/issues"
+  },
+  "packageManager": "pnpm@7.30.0",
+  "devDependencies": {
+    "chessground": "^8.3.7",
+    "solid-js": "^1.6.15",
+    "typescript": "^5.0.2"
+  },
+  "peerDependencies": {
+    "solid-js": "^1.6.15",
+    "chessground": "^8.3.7"
+  }
+}
